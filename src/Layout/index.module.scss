@@ -1,0 +1,12 @@
+.layout {
+    &__container {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+}
