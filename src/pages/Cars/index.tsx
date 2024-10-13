@@ -2,9 +2,10 @@ import React from 'react';
 import s from './index.module.scss';
 import { Link } from 'react-router-dom';
 // Images
-import bmwX7 from '../../assets/bmw-x7-front.jpg';
-import mcLaren from '../../assets/McLaren-F1-30.jpg';
-import bmw750 from '../../assets/test-2019-bmw-750i-xdrive-1992-bmw-735iA-E32-11-1200x800.jpg';
+import bmwX7 from '../../assets/first.jpg';
+import mcLaren from '../../assets/second.jpg';
+import bmw750 from '../../assets/third.jpg';
+import bmw from '../../assets/il_300x300.6034031602_e8mf.avif';
 
 export const Cars: React.FC = () => {
     return (
@@ -21,7 +22,7 @@ export const Cars: React.FC = () => {
                 </p>
                 <p className={s.cars__article__text}>
                     BMW був дуже успішним у цих підприємствах; у 1920 році він переніс свою головну штаб-квартиру до Мюнхена...
-                    <Link to='/motorcycle'>
+                    <Link to='/kursova_vntu/motorcycle'>
                         <span className={s.cars__article__link}>мотоцикл</span>
                     </Link>
                     R32...
@@ -61,6 +62,12 @@ export const Cars: React.FC = () => {
                 <p className={s.cars__history__text}>
                     Заміна седана New Class була найактуальнішим завданням BMW; У 1972 році відбувся дебют перших автомобілів серії BMW, з якими ми всі так знайомі сьогодні. Перша серія 5 була представлена ​​на Олімпійських іграх у Мюнхені в 1972 році, але цей рік, мабуть, ще більше відомий у колах BMW як дата, коли BMW Motorsport було засновано, щоб піклуватися про свої подвиги в автоперегонах.
                 </p>
+                <div className={s.cars__article__image}>
+                    <img 
+                        src={bmwX7}
+                        alt='bmw'
+                    />
+                </div>
                 <p className={s.cars__history__text}>
                     Завдання BMW M полягало в тому, щоб перемогти Ford Capri на трасі в Європейському чемпіонаті з туристичних автомобілів (ETCC). Для цього він випустив версію 3.0 CSL купе E9, автомобіль настільки хороший, що він виграв ETCC у 1973 році, а потім знову протягом п’яти років поспіль з 1975 по 1979 рік. Гоночний автомобіль породив остаточну версію моделі, яка була відомий як Бетмобіль за його великий аеродинамічний комплект крил, який забезпечував високу швидкість керування.
                 </p>
@@ -78,7 +85,7 @@ export const Cars: React.FC = () => {
                 </p>
                 <div className={s.cars__article__image}>
                     <img 
-                        src={bmw750}
+                        src={mcLaren}
                         alt='bmw750'
                     />
                 </div>
@@ -94,7 +101,7 @@ export const Cars: React.FC = () => {
                 </p>
                 <div className={s.cars__article__image}>
                     <img 
-                        src={mcLaren}
+                        src={bmw750}
                         alt='mcLaren'
                     />
                 </div>
@@ -122,7 +129,7 @@ export const Cars: React.FC = () => {
                 </p>
                 <div className={s.cars__article__image}>
                     <img 
-                        src={bmwX7}
+                        src={bmw}
                         alt='bmwX7'
                     />
                 </div>

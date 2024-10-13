@@ -8,7 +8,7 @@ export const Layout: React.FC = () => {
         <div className={s.layout}>
             <div className={s.layout__container}>
                 <ul className={s.layout__ul}>
-                    <Link to='/'>
+                    <Link to='/kursova_vntu/'>
                         <li>Home</li>
                     </Link>
                     <Link to='logo'>
