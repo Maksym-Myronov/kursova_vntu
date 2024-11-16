@@ -34,6 +34,18 @@
             align-items: center;
             text-align: center;
         }
+
+        &__images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+
+            img {
+                width: 50%;
+            }
+        }
     }
 
     &__history {

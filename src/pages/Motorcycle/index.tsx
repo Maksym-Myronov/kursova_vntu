@@ -1,7 +1,7 @@
 import React from 'react';
 // Images
-import motoFirst from '../../assets/bmw-r32-201507-web-0610.jpg';
-import motoSecond from '../../assets/BMW-R-24-2105_3.jpg';
+import motoFirst from '../../assets/1.png';
+import motoSecond from '../../assets/6.png';
 import motoThird from '../../assets/small_BMW_S_1000_RR_carbike360_bbb4ca21ff.webp';
 // Styles
 import s from '../Cars/index.module.scss';

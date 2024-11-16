@@ -1,7 +1,7 @@
 import React from 'react';
 // Images
 import bmwGIF from '../../assets/1003025_81_95134_9HZU0M0KR.gif';
-import logo from '../../assets/exl-15-media-hd-en7.webp'
+import logo from '../../assets/Logo.png'
 // Styles
 import s from './index.module.scss';
 

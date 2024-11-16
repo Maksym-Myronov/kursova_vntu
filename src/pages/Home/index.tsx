@@ -1,8 +1,8 @@
 import React from 'react';
 // Images
-import companyLogo from '../../assets/Banner-WBM-4-Brands---1440x500.jpg';
+import companyLogo from '../../assets/10.png';
 import bmwGroup from '../../assets/NEW_BMW_Group_Press.jpg';
-import motorcycle from '../../assets/right1.jpg';
+import motorcycle from '../../assets/1.png';
 // Styles
 import s from './index.module.scss';
 import { Link } from 'react-router-dom';
